@@ -1,0 +1,110 @@
+Using device: cuda
+Loaded training stats.
+Generating validation set for Meta-Classifier training...
+Training Meta-Classifier (neighbor Strategy)...
+Collecting data for meta-classifier training (Strategy: neighbor)...
+Meta-classifier trained. Acc: 0.6031
+Training Meta-Classifier (top3 Strategy)...
+Collecting data for meta-classifier training (Strategy: top3)...
+Meta-classifier trained. Acc: 0.5833
+Training Meta-Classifier (all Strategy)...
+Collecting data for meta-classifier training (Strategy: all)...
+Meta-classifier trained. Acc: 0.6062
+
+==================================================
+Running Experiment 1: Rank Identification Accuracy (Table 5)
+==================================================
+Testing Degree d=50...
+Classical d=50:   0%|          | 0/2000 [00:00<?, ?it/s]Classical d=50:  10%|¨€         | 202/2000 [00:00<00:00, 2007.85it/s]Classical d=50:  22%|¨€¨€¨‡       | 447/2000 [00:00<00:00, 2259.39it/s]Classical d=50:  34%|¨€¨€¨€¨†      | 673/2000 [00:00<00:00, 2240.90it/s]Classical d=50:  45%|¨€¨€¨€¨€¨„     | 903/2000 [00:00<00:00, 2263.12it/s]Classical d=50:  57%|¨€¨€¨€¨€¨€¨ƒ    | 1135/2000 [00:00<00:00, 2282.97it/s]Classical d=50:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 1364/2000 [00:00<00:00, 2252.31it/s]Classical d=50:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 1612/2000 [00:00<00:00, 2324.01it/s]Classical d=50:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 1845/2000 [00:00<00:00, 2286.68it/s]Classical d=50: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2000/2000 [00:00<00:00, 2264.66it/s]
+Testing Degree d=100...
+Classical d=100:   0%|          | 0/2000 [00:00<?, ?it/s]Classical d=100:   8%|¨‚         | 169/2000 [00:00<00:01, 1679.86it/s]Classical d=100:  17%|¨€¨ƒ        | 340/2000 [00:00<00:00, 1696.93it/s]Classical d=100:  26%|¨€¨€¨„       | 510/2000 [00:00<00:00, 1680.52it/s]Classical d=100:  34%|¨€¨€¨€¨…      | 679/2000 [00:00<00:00, 1680.07it/s]Classical d=100:  42%|¨€¨€¨€¨€¨‡     | 848/2000 [00:00<00:00, 1670.21it/s]Classical d=100:  52%|¨€¨€¨€¨€¨€¨‡    | 1030/2000 [00:00<00:00, 1719.67it/s]Classical d=100:  60%|¨€¨€¨€¨€¨€¨€    | 1203/2000 [00:00<00:00, 1696.80it/s]Classical d=100:  69%|¨€¨€¨€¨€¨€¨€¨‚   | 1373/2000 [00:00<00:00, 1659.44it/s]Classical d=100:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 1540/2000 [00:00<00:00, 1649.95it/s]Classical d=100:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 1706/2000 [00:01<00:00, 1647.54it/s]Classical d=100:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 1876/2000 [00:01<00:00, 1663.21it/s]Classical d=100: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2000/2000 [00:01<00:00, 1673.10it/s]
+Testing Degree d=200...
+Classical d=200:   0%|          | 0/2000 [00:00<?, ?it/s]Classical d=200:   5%|¨„         | 101/2000 [00:00<00:01, 996.35it/s]Classical d=200:  10%|¨€         | 201/2000 [00:00<00:01, 970.60it/s]Classical d=200:  16%|¨€¨„        | 311/2000 [00:00<00:01, 1025.71it/s]Classical d=200:  21%|¨€¨€        | 414/2000 [00:00<00:01, 1023.07it/s]Classical d=200:  26%|¨€¨€¨„       | 521/2000 [00:00<00:01, 1036.14it/s]Classical d=200:  32%|¨€¨€¨€¨‡      | 639/2000 [00:00<00:01, 1078.80it/s]Classical d=200:  38%|¨€¨€¨€¨‚      | 754/2000 [00:00<00:01, 1096.85it/s]Classical d=200:  43%|¨€¨€¨€¨€¨†     | 864/2000 [00:00<00:01, 1093.42it/s]Classical d=200:  49%|¨€¨€¨€¨€¨‚     | 974/2000 [00:00<00:00, 1067.00it/s]Classical d=200:  54%|¨€¨€¨€¨€¨€¨…    | 1081/2000 [00:01<00:00, 1049.82it/s]Classical d=200:  59%|¨€¨€¨€¨€¨€¨    | 1187/2000 [00:01<00:00, 1033.86it/s]Classical d=200:  65%|¨€¨€¨€¨€¨€¨€¨…   | 1291/2000 [00:01<00:00, 969.17it/s] Classical d=200:  70%|¨€¨€¨€¨€¨€¨€¨   | 1398/2000 [00:01<00:00, 994.23it/s]Classical d=200:  75%|¨€¨€¨€¨€¨€¨€¨€¨„  | 1500/2000 [00:01<00:00, 1000.73it/s]Classical d=200:  80%|¨€¨€¨€¨€¨€¨€¨€¨€  | 1605/2000 [00:01<00:00, 1014.67it/s]Classical d=200:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 1707/2000 [00:01<00:00, 916.00it/s] Classical d=200:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 1815/2000 [00:01<00:00, 960.87it/s]Classical d=200:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 1916/2000 [00:01<00:00, 972.81it/s]Classical d=200: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2000/2000 [00:01<00:00, 1004.32it/s]
+
+Table 5 Results:
+    Degree           Method  Acc (%)     F1 (%)  VSR (%)
+0       50        Classical    69.95  67.386308   100.00
+1       50           Hybrid    11.80   3.227762    92.75
+2       50  Meta (Neighbor)    33.90  31.921634    83.50
+3       50      Meta (Top3)    37.65  35.471047    88.80
+4       50       Meta (All)    49.15  49.311259   100.00
+5      100        Classical    71.10  68.214282   100.00
+6      100           Hybrid    11.25   3.309820    92.15
+7      100  Meta (Neighbor)    33.85  31.000362    86.95
+8      100      Meta (Top3)    37.10  34.188890    92.30
+9      100       Meta (All)    49.40  49.213541   100.00
+10     200        Classical    70.55  69.918446   100.00
+11     200           Hybrid    10.60   3.459595    88.45
+12     200  Meta (Neighbor)    34.55  31.459165    85.65
+13     200      Meta (Top3)    37.05  34.329813    91.50
+14     200       Meta (All)    48.45  47.996106   100.00
+
+==================================================
+Running Experiment 2: Runtime Comparison (Table 6)
+==================================================
+Timing Degree d=50...
+Timing Degree d=100...
+Timing Degree d=200...
+
+Table 6 Results:
+    Degree           Method  Time (ms)
+0       50        Classical   0.721679
+1       50           Hybrid  10.546117
+2       50  Meta (Neighbor)  11.808488
+3       50      Meta (Top3)  12.157471
+4       50       Meta (All)  16.606002
+5      100        Classical   0.898139
+6      100           Hybrid  18.402610
+7      100  Meta (Neighbor)  20.746911
+8      100      Meta (Top3)  21.092980
+9      100       Meta (All)  28.045518
+10     200        Classical   1.381965
+11     200           Hybrid  33.962617
+12     200  Meta (Neighbor)  37.012463
+13     200      Meta (Top3)  37.968462
+14     200       Meta (All)  49.463058
+
+==================================================
+Running Experiment 3: Noise Robustness (Figure 4)
+==================================================
+Testing Noise Level sigma=0...
+Testing Noise Level sigma=1e-06...
+Testing Noise Level sigma=0.0001...
+Testing Noise Level sigma=0.001...
+Testing Noise Level sigma=0.01...
+Testing Noise Level sigma=0.1...
+
+Figure 4 Data:
+       Noise           Method  Acc (%)  VSR (%)   Median Eps2
+0   0.000000        Classical    72.10   100.00  4.470510e-15
+1   0.000000           Hybrid    10.85    92.15  1.356844e-14
+2   0.000000  Meta (Neighbor)    33.65    84.70  3.122383e-15
+3   0.000000      Meta (Top3)    37.00    91.40  3.122383e-15
+4   0.000000       Meta (All)    50.40   100.00  1.708801e-15
+5   0.000001        Classical     0.00     0.00           NaN
+6   0.000001           Hybrid    11.20    89.65  1.685676e-05
+7   0.000001  Meta (Neighbor)    29.10    85.70  1.298003e-05
+8   0.000001      Meta (Top3)    32.05    91.65  1.316512e-05
+9   0.000001       Meta (All)    35.50   100.00  1.248639e-05
+10  0.000100        Classical     0.00     0.00           NaN
+11  0.000100           Hybrid     1.75    14.05  6.498060e-04
+12  0.000100  Meta (Neighbor)    24.65    78.65  1.145334e-03
+13  0.000100      Meta (Top3)    24.90    81.90  1.136435e-03
+14  0.000100       Meta (All)    28.15    96.70  1.196073e-03
+15  0.001000        Classical    11.75    42.50  8.710068e-03
+16  0.001000           Hybrid     0.00     0.00           NaN
+17  0.001000  Meta (Neighbor)    11.75    19.40  1.214557e-02
+18  0.001000      Meta (Top3)    11.70    18.40  1.218206e-02
+19  0.001000       Meta (All)    18.75    53.40  9.749857e-03
+20  0.010000        Classical     0.00     0.05  9.974451e-03
+21  0.010000           Hybrid     0.00     0.00           NaN
+22  0.010000  Meta (Neighbor)     3.15     4.30  1.318919e-01
+23  0.010000      Meta (Top3)     2.45     3.25  1.327876e-01
+24  0.010000       Meta (All)     6.00    12.50  1.170563e-01
+25  0.100000        Classical     0.00     0.00           NaN
+26  0.100000           Hybrid     0.00     0.00           NaN
+27  0.100000  Meta (Neighbor)     0.00     0.00           NaN
+28  0.100000      Meta (Top3)     0.00     0.00           NaN
+29  0.100000       Meta (All)     0.00     0.00           NaN
+
+All experiments completed.
